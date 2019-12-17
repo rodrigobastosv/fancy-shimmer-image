@@ -29,14 +29,18 @@ If you don't like the default widget behavior, you can set the background colors
 FancyShimmerImage(  
   imageUrl: 'https://static.businessinsider.sg/2018/12/12/5c1c90f8e04d6243c7019cf6.png',  
   shimmerBaseColor: randomColor(),  
-shimmerHighlightColor: randomColor(),  
-shimmerBackColor: randomColor(),  
+  shimmerHighlightColor: randomColor(),  
+  shimmerBackColor: randomColor(),  
 )
 ```
 
 By randomizing the colors you can have a result similar to this:
 
 ![enter image description here](https://s5.gifyu.com/images/randomad6f88534e0cedf4.gif)
+
+Other thing you can do is to configure the direction of the Shimmer and it's speed. In the above example i configured it to have top to bottom direction and 300 milliseconds of speed.
+
+![enter image description here](https://s5.gifyu.com/images/fast.gif)
 
 One last step you can configure is to configure the widget that will appear in case the image upload fails for some reason. In this case just pass the desired widget in the `errorWidget` parameter. If no value is passed, a default error widget will be used.
 

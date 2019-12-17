@@ -5,6 +5,8 @@ class ImageShimmerWidget extends StatelessWidget {
   ImageShimmerWidget({
     this.width,
     this.height,
+    this.shimmerDirection,
+    this.shimmerDuration,
     @required this.baseColor,
     @required this.highlightColor,
     @required this.backColor,
@@ -14,6 +16,8 @@ class ImageShimmerWidget extends StatelessWidget {
 
   final double width;
   final double height;
+  final ShimmerDirection shimmerDirection;
+  final Duration shimmerDuration;
   final Color baseColor;
   final Color highlightColor;
   final Color backColor;
@@ -26,6 +30,8 @@ class ImageShimmerWidget extends StatelessWidget {
       child: Shimmer.fromColors(
         baseColor: baseColor,
         highlightColor: highlightColor,
+        direction: shimmerDirection,
+        period: shimmerDuration,
         child: Container(
           width: width,
           height: height,
