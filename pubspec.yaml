@@ -1,8 +1,8 @@
 name: fancy_shimmer_image
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+description: Package for easy use of images that are automatically cacheable and have a beautiful on the fly (but it can be configured) shimmer effect while loading
+version: 1.0.0
+author: Rodrigo Vasconcelos <rodrigobastosv@gmail.com>
+homepage: https://github.com/rodrigobastosv/fancy-shimmer-image
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
