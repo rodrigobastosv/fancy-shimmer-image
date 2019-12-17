@@ -14,8 +14,14 @@ class DefaultErrorWidget extends StatelessWidget {
     return Container(
       width: width,
       height: height,
-      color: Color.fromRGBO(217, 217, 217, 0.5),
-      child: Icon(Icons.error, color: Colors.red),
+      color: Colors.white,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Icon(Icons.error, color: Colors.red),
+          Text('Error loading Image')
+        ],
+      ),
     );
   }
 }
