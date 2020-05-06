@@ -1,3 +1,6 @@
+## [1.0.0+2]
+- Updating dependencies
+
 ## [1.0.0]
 
 - First release with functional fancy image with shimmer effect

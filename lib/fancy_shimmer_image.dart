@@ -48,10 +48,12 @@ class FancyShimmerImage extends StatelessWidget {
         highlightColor: shimmerHighlightColor ?? defaultShimmerHighlightColor,
         backColor: shimmerBackColor ?? defaultShimmerBackColor,
       ),
-      errorWidget: (context, url, error) => errorWidget ?? DefaultErrorWidget(
-        width: width,
-        height: height,
-      ),
+      errorWidget: (context, url, error) =>
+          errorWidget ??
+          DefaultErrorWidget(
+            width: width,
+            height: height,
+          ),
     );
   }
 }
