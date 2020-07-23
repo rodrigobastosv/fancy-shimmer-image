@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
+///Widget that shows image shimmer
 class ImageShimmerWidget extends StatelessWidget {
   ImageShimmerWidget({
     this.width,

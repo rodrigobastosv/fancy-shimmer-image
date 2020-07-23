@@ -84,7 +84,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "1.0.0+2"
+    version: "1.0.0+3"
   file:
     dependency: transitive
     description:
@@ -199,7 +199,7 @@ packages:
       name: random_color
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "1.0.5"
   rxdart:
     dependency: transitive
     description:

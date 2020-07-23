@@ -7,6 +7,8 @@ import 'package:shimmer/shimmer.dart';
 import 'defaults.dart';
 import 'widgets/widgets.dart';
 
+///Widget that uses chached network image and Shimmer widgets to create
+///beautiful widgets that are cached and have nice Shimmer effect
 class FancyShimmerImage extends StatelessWidget {
   FancyShimmerImage({
     @required this.imageUrl,

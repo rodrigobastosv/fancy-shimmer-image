@@ -1,3 +1,6 @@
+## [1.0.0+4]
+- Improving docs
+
 ## [1.0.0+3]
 - Formating code
 

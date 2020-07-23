@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+///Widget default to show erros when cannot load image
 class DefaultErrorWidget extends StatelessWidget {
   DefaultErrorWidget({
     this.width,
