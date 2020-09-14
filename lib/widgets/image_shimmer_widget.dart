@@ -8,6 +8,7 @@ class ImageShimmerWidget extends StatelessWidget {
     this.height,
     this.shimmerDirection,
     this.shimmerDuration,
+    this.boxDecoration,
     @required this.baseColor,
     @required this.highlightColor,
     @required this.backColor,
@@ -22,9 +23,23 @@ class ImageShimmerWidget extends StatelessWidget {
   final Color baseColor;
   final Color highlightColor;
   final Color backColor;
+  final BoxDecoration boxDecoration;
 
   @override
   Widget build(BuildContext context) {
+    if (boxDecoration != null) {
+      return Shimmer.fromColors(
+        baseColor: baseColor,
+        highlightColor: highlightColor,
+        direction: shimmerDirection,
+        period: shimmerDuration,
+        child: Container(
+          width: width,
+          height: height,
+          decoration: boxDecoration,
+        ),
+      );
+    }
     return SizedBox(
       width: width,
       height: height,

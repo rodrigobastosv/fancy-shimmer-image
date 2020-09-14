@@ -21,6 +21,7 @@ class FancyShimmerImage extends StatelessWidget {
     this.shimmerHighlightColor,
     this.shimmerBackColor,
     this.errorWidget,
+    this.boxDecoration,
   });
 
   final String imageUrl;
@@ -33,6 +34,7 @@ class FancyShimmerImage extends StatelessWidget {
   final Color shimmerHighlightColor;
   final Color shimmerBackColor;
   final Widget errorWidget;
+  final BoxDecoration boxDecoration;
 
   @override
   Widget build(BuildContext context) {
@@ -49,6 +51,7 @@ class FancyShimmerImage extends StatelessWidget {
         baseColor: shimmerBaseColor ?? defaultShimmerBaseColor,
         highlightColor: shimmerHighlightColor ?? defaultShimmerHighlightColor,
         backColor: shimmerBackColor ?? defaultShimmerBackColor,
+        boxDecoration: boxDecoration,
       ),
       errorWidget: (context, url, error) =>
           errorWidget ??

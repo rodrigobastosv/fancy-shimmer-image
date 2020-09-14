@@ -1,3 +1,6 @@
+## [1.0.1]
+- Adding possibility to pass your own box decoration
+
 ## [1.0.0+4]
 - Improving docs
 
