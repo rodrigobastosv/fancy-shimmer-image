@@ -1,4 +1,4 @@
-## [1.0.1]
+## [1.0.2]
 - Adding possibility to pass your own box decoration
 
 ## [1.0.0+4]
