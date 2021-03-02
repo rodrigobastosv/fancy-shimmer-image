@@ -1,3 +1,6 @@
+## [2.0.0-nullsafety.0]
+- Migrating to null safety
+
 ## [1.0.2]
 - Adding possibility to pass your own box decoration
 
