@@ -6,24 +6,22 @@ class ImageShimmerWidget extends StatelessWidget {
   ImageShimmerWidget({
     this.width,
     this.height,
-    this.shimmerDirection,
-    this.shimmerDuration,
+    required this.shimmerDirection,
+    required this.shimmerDuration,
     this.boxDecoration,
-    @required this.baseColor,
-    @required this.highlightColor,
-    @required this.backColor,
-  })  : assert(baseColor != null),
-        assert(highlightColor != null),
-        assert(backColor != null);
+    required this.baseColor,
+    required this.highlightColor,
+    required this.backColor,
+  });
 
-  final double width;
-  final double height;
+  final double? width;
+  final double? height;
   final ShimmerDirection shimmerDirection;
   final Duration shimmerDuration;
   final Color baseColor;
   final Color highlightColor;
   final Color backColor;
-  final BoxDecoration boxDecoration;
+  final BoxDecoration? boxDecoration;
 
   @override
   Widget build(BuildContext context) {
