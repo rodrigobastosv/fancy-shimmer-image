@@ -1,3 +1,6 @@
+## [2.0.0+1]
+- Updating documentation and some dependencies
+- 
 ## [2.0.0]
 - Full migrated to null safety
 - 

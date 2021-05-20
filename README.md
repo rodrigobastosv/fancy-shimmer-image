@@ -19,7 +19,7 @@ FancyShimmerImage(
 That will produce a image that's is cacheable by default and that has a default (grey) Shimmer animation.  Similar to result below:
 
 
-![enter image description here](https://s5.gifyu.com/images/default.gif)
+![enter image description here](https://media.giphy.com/media/0a4JkRyAlHIrzOFyJf/giphy.gif)
 
 
 # More Advanced Usage
@@ -36,11 +36,11 @@ FancyShimmerImage(
 
 By randomizing the colors you can have a result similar to this:
 
-![enter image description here](https://s5.gifyu.com/images/randomad6f88534e0cedf4.gif)
+![enter image description here](https://media.giphy.com/media/6M45TkrEOoQwMdxbUm/giphy.gif)
 
 Other thing you can do is to configure the direction of the Shimmer and it's speed. In the above example i configured it to have top to bottom direction and 300 milliseconds of speed.
 
-![enter image description here](https://s5.gifyu.com/images/fast.gif)
+![enter image description here](https://media.giphy.com/media/K8xbwab3zxGiUp2SHj/giphy.gif)
 
 One last step you can configure is to configure the widget that will appear in case the image upload fails for some reason. In this case just pass the desired widget in the `errorWidget` parameter. If no value is passed, a default error widget will be used.
 
@@ -51,4 +51,4 @@ FancyShimmerImage(
 )
 ```
 
-![enter image description here](https://s5.gifyu.com/images/error.png)
+![enter image description here](https://media.giphy.com/media/62PhjL4xknt0tNNOhQ/giphy.gif)
