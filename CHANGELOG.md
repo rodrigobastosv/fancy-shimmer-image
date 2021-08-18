@@ -1,9 +1,12 @@
+## [2.0.0+2]
+- Formatting files with dartfmt
+
 ## [2.0.0+1]
 - Updating documentation and some dependencies
-- 
+
 ## [2.0.0]
 - Full migrated to null safety
-- 
+
 ## [2.0.0-nullsafety.0]
 - Migrating to null safety
 

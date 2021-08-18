@@ -30,7 +30,7 @@ class FancyShimmerImage extends StatelessWidget {
   final ShimmerDirection shimmerDirection;
   final Duration shimmerDuration;
   final BoxFit boxFit;
-  final  Color? shimmerBaseColor;
+  final Color? shimmerBaseColor;
   final Color? shimmerHighlightColor;
   final Color? shimmerBackColor;
   final Widget? errorWidget;
