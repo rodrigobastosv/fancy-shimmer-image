@@ -5,7 +5,7 @@ col.RandomColor R = col.RandomColor();
 
 class InfoModel {
   const InfoModel({
-    this.url,
+    required this.url,
     this.shimmerBaseColor,
     this.shimmerHighlightColor,
     this.shimmerBackColor,
@@ -13,10 +13,10 @@ class InfoModel {
   });
 
   final String url;
-  final Color shimmerBaseColor;
-  final Color shimmerHighlightColor;
-  final Color shimmerBackColor;
-  final Widget errorWidget;
+  final Color? shimmerBaseColor;
+  final Color? shimmerHighlightColor;
+  final Color? shimmerBackColor;
+  final Widget? errorWidget;
 }
 
 final dataRandom = <InfoModel>[
