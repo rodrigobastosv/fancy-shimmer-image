@@ -1,3 +1,6 @@
+## [2.0.0+3]
+- Adjusting README
+
 ## [2.0.0+2]
 - Formatting files with dartfmt
 
