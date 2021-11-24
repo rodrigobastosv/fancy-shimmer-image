@@ -1,3 +1,5 @@
+<a href="https://www.buymeacoffee.com/rodrigobastosv" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 #  Introduction
 
 Package created for the purpose of uploading images from the internet, giving the possibility of showing a beautiful Shimmer animation while the images are not loading. And it is still possible to create a widget to be shown in case the image upload fails for some reason.
