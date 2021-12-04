@@ -1,3 +1,6 @@
+## [2.0.1+1]
+- Pumping cached network image version
+
 ## [2.0.1]
 - Small adjusts on the accepted params
 
