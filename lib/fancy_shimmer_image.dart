@@ -17,6 +17,7 @@ class FancyShimmerImage extends StatelessWidget {
     this.height = 300,
     this.shimmerDirection = ShimmerDirection.ltr,
     this.shimmerDuration = const Duration(milliseconds: 1500),
+    this.cacheKey,
     this.shimmerBaseColor,
     this.shimmerHighlightColor,
     this.shimmerBackColor,
@@ -30,6 +31,7 @@ class FancyShimmerImage extends StatelessWidget {
   final ShimmerDirection shimmerDirection;
   final Duration shimmerDuration;
   final BoxFit boxFit;
+  final String? cacheKey;
   final Color? shimmerBaseColor;
   final Color? shimmerHighlightColor;
   final Color? shimmerBackColor;
@@ -40,6 +42,7 @@ class FancyShimmerImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return CachedNetworkImage(
       imageUrl: imageUrl,
+      cacheKey: cacheKey,
       fit: boxFit,
       width: width,
       height: height,
