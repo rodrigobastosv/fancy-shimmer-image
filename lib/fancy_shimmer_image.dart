@@ -11,6 +11,7 @@ import 'widgets/widgets.dart';
 ///beautiful widgets that are cached and have nice Shimmer effect
 class FancyShimmerImage extends StatelessWidget {
   FancyShimmerImage({
+    Key? key,
     required this.imageUrl,
     this.boxFit = BoxFit.fill,
     this.width = 300,
@@ -23,7 +24,9 @@ class FancyShimmerImage extends StatelessWidget {
     this.shimmerBackColor,
     this.errorWidget,
     this.boxDecoration,
-  });
+    this.color,
+    this.alignment,
+  }) : super(key: key);
 
   final String imageUrl;
   final double width;
@@ -37,10 +40,14 @@ class FancyShimmerImage extends StatelessWidget {
   final Color? shimmerBackColor;
   final Widget? errorWidget;
   final BoxDecoration? boxDecoration;
+  final Color? color;
+  final Alignment? alignment;
 
   @override
   Widget build(BuildContext context) {
     return CachedNetworkImage(
+      alignment: alignment ?? Alignment.center,
+      color: color,
       imageUrl: imageUrl,
       cacheKey: cacheKey,
       fit: boxFit,

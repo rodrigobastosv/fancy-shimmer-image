@@ -1,6 +1,6 @@
 name: fancy_shimmer_image
 description: Package for easy use of images that are automatically cacheable and have a beautiful on the fly (but it can be configured) shimmer effect while loading
-version: 2.0.0+3
+version: 2.0.1
 homepage: https://github.com/rodrigobastosv/fancy-shimmer-image
 
 environment:

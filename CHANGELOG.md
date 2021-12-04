@@ -1,3 +1,6 @@
+## [2.0.1]
+- Small adjusts on the accepted params
+
 ## [2.0.0+3]
 - Adjusting README
 
