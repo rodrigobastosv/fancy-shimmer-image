@@ -26,6 +26,7 @@ class FancyShimmerImage extends StatelessWidget {
     this.boxDecoration,
     this.color,
     this.alignment,
+    this.imageBuilder,
   }) : super(key: key);
 
   final String imageUrl;
@@ -42,6 +43,7 @@ class FancyShimmerImage extends StatelessWidget {
   final BoxDecoration? boxDecoration;
   final Color? color;
   final Alignment? alignment;
+  final ImageWidgetBuilder? imageBuilder;
 
   @override
   Widget build(BuildContext context) {
@@ -53,6 +55,7 @@ class FancyShimmerImage extends StatelessWidget {
       fit: boxFit,
       width: width,
       height: height,
+      imageBuilder: imageBuilder,
       placeholder: (context, url) => ImageShimmerWidget(
         width: width,
         height: height,

@@ -1,3 +1,6 @@
+## [2.0.2]
+- Adding cached network image builder parameter
+
 ## [2.0.1+1]
 - Pumping cached network image version
 
