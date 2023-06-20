@@ -1,3 +1,6 @@
+## [2.0.3]
+- Updating both CachedNetworkImage and Shimmer dependencies
+- 
 ## [2.0.2]
 - Adding cached network image builder parameter
 

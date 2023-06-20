@@ -1,16 +1,16 @@
 name: fancy_shimmer_image
 description: Package for easy use of images that are automatically cacheable and have a beautiful on the fly (but it can be configured) shimmer effect while loading
-version: 2.0.2
+version: 2.0.3
 homepage: https://github.com/rodrigobastosv/fancy-shimmer-image
 
 environment:
-  sdk: '>=2.12.0-0 <3.0.0'
+  sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cached_network_image: ^3.2.0
-  shimmer: ^2.0.0
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
 
 dev_dependencies:
   flutter_test:
