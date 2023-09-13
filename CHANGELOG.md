@@ -1,4 +1,7 @@
 ## [2.0.3]
+- Added Cache Manager for more control over the cache
+- 
+## [2.0.3]
 - Updating both CachedNetworkImage and Shimmer dependencies
 - 
 ## [2.0.2]

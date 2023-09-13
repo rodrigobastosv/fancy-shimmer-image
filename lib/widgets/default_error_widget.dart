@@ -1,13 +1,23 @@
 import 'package:flutter/material.dart';
 
-///Widget default to show erros when cannot load image
+/// `DefaultErrorWidget` is a widget designed to display a default error message
+/// when an image cannot be loaded. It shows a white container with a centered
+/// error icon and an accompanying error message.
 class DefaultErrorWidget extends StatelessWidget {
-  DefaultErrorWidget({
+  /// Constructs a `DefaultErrorWidget`.
+  ///
+  /// The dimensions of the widget are specified by [width] and [height].
+  /// [key] is the optional widget key.
+  const DefaultErrorWidget({
     required this.width,
     required this.height,
-  });
+    Key? key,
+  }) : super(key: key);
 
+  /// Width of the widget.
   final double width;
+
+  /// Height of the widget.
   final double height;
 
   @override
@@ -16,7 +26,7 @@ class DefaultErrorWidget extends StatelessWidget {
       width: width,
       height: height,
       color: Colors.white,
-      child: Column(
+      child: const Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Icon(Icons.error, color: Colors.red),
